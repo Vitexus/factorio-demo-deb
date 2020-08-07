@@ -1,19 +1,20 @@
 /usr/share/games/factorio/bin/x64/factorio	/usr/games/factorio-demo
+/usr/share/games/factorio/data/core		/usr/share/factorio/core
 
-#  usr/share/games/factorio/data/core/fonts/DejaVuSans-Bold.ttf also in ttf-dejavu-core
-#  usr/share/games/factorio/data/core/fonts/DejaVuSans.ttf also in ttf-dejavu-core
-#  usr/share/games/factorio/data/core/fonts/DejaVuSansMono.ttf also in ttf-dejavu-core
-#  usr/share/games/factorio/data/core/fonts/Lato-Bold.ttf also in fonts-lato
-#  usr/share/games/factorio/data/core/fonts/Lato-Regular.ttf also in fonts-lato
-#  usr/share/games/factorio/data/core/fonts/Lato-Semibold.ttf also in fonts-lato
-#  usr/share/games/factorio/data/core/fonts/NotoMono-Regular.ttf also in fonts-noto-mono
-#  usr/share/games/factorio/data/core/fonts/NotoSans-Bold.ttf also in fonts-noto-hinted
-#  usr/share/games/factorio/data/core/fonts/NotoSans-Regular.ttf also in fonts-noto-hinted
-#  usr/share/games/factorio/data/core/fonts/NotoSansArabic-Bold.ttf also in fonts-noto-hinted
-#  usr/share/games/factorio/data/core/fonts/NotoSansArabic-Regular.ttf also in fonts-noto-hinted
-#  usr/share/games/factorio/data/core/fonts/NotoSansHebrew-Bold.ttf also in fonts-noto-hinted
-#  usr/share/games/factorio/data/core/fonts/NotoSansHebrew-Regular.ttf also in fonts-noto-hinted
-#  usr/share/games/factorio/data/core/fonts/NotoSansThai-Bold.ttf also in fonts-noto-hinted
-#  usr/share/games/factorio/data/core/fonts/NotoSansThai-Regular.ttf also in fonts-noto-hinted
+/usr/share/fonts/truetype/ttf-dejavu/DejaVuSans-Bold.ttf 	/usr/share/games/factorio/data/core/fonts/DejaVuSans-Bold.ttf
+/usr/share/fonts/truetype/ttf-dejavu/DejaVuSans.ttf		/usr/share/games/factorio/data/core/fonts/DejaVuSans.ttf
+/usr/share/fonts/truetype/ttf-dejavu/DejaVuSansMono.ttf		/usr/share/games/factorio/data/core/fonts/DejaVuSansMono.ttf
+/usr/share/fonts/truetype/lato/Lato-Bold.ttf   			/usr/share/games/factorio/data/core/fonts/Lato-Bold.ttf
+/usr/share/fonts/truetype/lato/Lato-Regular.ttf    		/usr/share/games/factorio/data/core/fonts/Lato-Regular.ttf
+/usr/share/fonts/truetype/lato/Lato-Semibold.ttf		/usr/share/games/factorio/data/core/fonts/Lato-Semibold.ttf
+/usr/share/fonts/truetype/noto/NotoMono-Regular.ttf		/usr/share/games/factorio/data/core/fonts/NotoMono-Regular.ttf
+/usr/share/fonts/truetype/noto/NotoSans-Bold.ttf		/usr/share/games/factorio/data/core/fonts/NotoSans-Bold.ttf
+/usr/share/fonts/truetype/noto/NotoSans-Regular.ttf		/usr/share/games/factorio/data/core/fonts/NotoSans-Regular.ttf
+/usr/share/fonts/truetype/noto/NotoSansArabic-Bold.ttf		/usr/share/games/factorio/data/core/fonts/NotoSansArabic-Bold.ttf
+/usr/share/fonts/truetype/noto/NotoSansArabic-Regular.ttf	/usr/share/games/factorio/data/core/fonts/NotoSansArabic-Regular.ttf
+/usr/share/fonts/truetype/noto/NotoSansHebrew-Bold.ttf		/usr/share/games/factorio/data/core/fonts/NotoSansHebrew-Bold.ttf
+/usr/share/fonts/truetype/noto/NotoSansHebrew-Regular.ttf	/usr/share/games/factorio/data/core/fonts/NotoSansHebrew-Regular.ttf
+/usr/share/fonts/truetype/noto/NotoSansThai-Bold.ttf		/usr/share/games/factorio/data/core/fonts/NotoSansThai-Bold.ttf
+/usr/share/fonts/truetype/noto/NotoSansThai-Regular.ttf   	/usr/share/games/factorio/data/core/fonts/NotoSansThai-Regular.ttf
 
 
