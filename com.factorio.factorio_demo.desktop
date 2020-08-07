@@ -7,6 +7,6 @@ Comment=Factorio is a game in which you build and maintain factories.
 Categories=Game;StrategyGame;
 
 Icon=factorio-demo
-Exec=factorio-demp
+Exec=factorio-demo
 Terminal=false
 
