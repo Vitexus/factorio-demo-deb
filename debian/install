@@ -1,1 +1,2 @@
-tmp/factorio/bin/x64/factorio usr/games
+debian/tmp/factorio/bin/x64/factorio usr/games
+debian/tmp/factorio/data	     usr/share/games/factorio
