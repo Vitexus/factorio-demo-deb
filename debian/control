@@ -1,5 +1,5 @@
 Source: factorio-demo
-Section: hgames
+Section: games
 Priority: optional
 Maintainer: "Vítězslav Dvořák" <info@vitexsoftware.cz>
 Build-Depends: debhelper (>=11~),wget,awk

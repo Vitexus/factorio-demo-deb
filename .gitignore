@@ -1,3 +1,6 @@
 factorio_demo_x64_0.17.79.tar.xz
 debian/.debhelper/
 debian/debhelper-build-stamp
+debian/factorio-demo.debhelper.log
+debian/factorio-demo.substvars
+debian/files

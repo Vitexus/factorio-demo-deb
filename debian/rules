@@ -11,6 +11,6 @@ override_dh_auto_build:
 	dh_auto_build
 
 override_dh_install:
-	mkdir -p debian/faktorio-demo/usr/share/games
-	tar xfv $(archive) -C debian/faktorio-demo/usr/share/games
+	mkdir -p debian/factorio-demo/usr/share/games
+	tar xfv $(archive) -C debian/factorio-demo/usr/share/games
 	dh_install
