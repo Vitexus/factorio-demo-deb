@@ -7,7 +7,7 @@ Standards-Version: 4.1.4
 Homepage: https://factorio.com/
 
 Package: factorio-demo
-Depends: ${misc:Depends}, xorg
+Depends: ${misc:Depends}, xorg, ttf-dejavu-core, fonts-lato, fonts-noto-mono, fonts-noto-hinted
 Architecture: amd64
 Description: game in which you build and maintain factories.
  You will be mining resources, researching technologies, building 
@@ -16,3 +16,7 @@ Description: game in which you build and maintain factories.
  elements into ingenious structures, apply management skills 
  to keep it working, and protect it from the creatures who 
  don't really like you. 
+
+
+
+

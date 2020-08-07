@@ -1,0 +1,19 @@
+debian/factorio-demo/usr/share/games/factorio/bin/x64/factorio	/usr/share/games
+
+W: factorio-demo: duplicate-font-file usr/share/games/factorio/data/core/fonts/DejaVuSans-Bold.ttf also in ttf-dejavu-core
+W: factorio-demo: duplicate-font-file usr/share/games/factorio/data/core/fonts/DejaVuSans.ttf also in ttf-dejavu-core
+W: factorio-demo: duplicate-font-file usr/share/games/factorio/data/core/fonts/DejaVuSansMono.ttf also in ttf-dejavu-core
+W: factorio-demo: duplicate-font-file usr/share/games/factorio/data/core/fonts/Lato-Bold.ttf also in fonts-lato
+W: factorio-demo: duplicate-font-file usr/share/games/factorio/data/core/fonts/Lato-Regular.ttf also in fonts-lato
+W: factorio-demo: duplicate-font-file usr/share/games/factorio/data/core/fonts/Lato-Semibold.ttf also in fonts-lato
+W: factorio-demo: duplicate-font-file usr/share/games/factorio/data/core/fonts/NotoMono-Regular.ttf also in fonts-noto-mono
+W: factorio-demo: duplicate-font-file usr/share/games/factorio/data/core/fonts/NotoSans-Bold.ttf also in fonts-noto-hinted
+W: factorio-demo: duplicate-font-file usr/share/games/factorio/data/core/fonts/NotoSans-Regular.ttf also in fonts-noto-hinted
+W: factorio-demo: duplicate-font-file usr/share/games/factorio/data/core/fonts/NotoSansArabic-Bold.ttf also in fonts-noto-hinted
+W: factorio-demo: duplicate-font-file usr/share/games/factorio/data/core/fonts/NotoSansArabic-Regular.ttf also in fonts-noto-hinted
+W: factorio-demo: duplicate-font-file usr/share/games/factorio/data/core/fonts/NotoSansHebrew-Bold.ttf also in fonts-noto-hinted
+W: factorio-demo: duplicate-font-file usr/share/games/factorio/data/core/fonts/NotoSansHebrew-Regular.ttf also in fonts-noto-hinted
+W: factorio-demo: duplicate-font-file usr/share/games/factorio/data/core/fonts/NotoSansThai-Bold.ttf also in fonts-noto-hinted
+W: factorio-demo: duplicate-font-file usr/share/games/factorio/data/core/fonts/NotoSansThai-Regular.ttf also in fonts-noto-hinted
+
+
