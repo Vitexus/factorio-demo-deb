@@ -9,6 +9,7 @@ download:
 	wget -c https://factorio.com/get-download/0.17.79/demo/linux64 -O $(archive)
 
 unpack:
+	mkdir -p debian/tmp
 	tar xfv $(archive) -C debian/tmp
 
 deb:
