@@ -1,4 +1,4 @@
-debian/factorio-demo/usr/share/games/factorio/bin/x64/factorio	/usr/games/factorio-demo
+/usr/share/games/factorio/bin/x64/factorio	/usr/games/factorio-demo
 
 #  usr/share/games/factorio/data/core/fonts/DejaVuSans-Bold.ttf also in ttf-dejavu-core
 #  usr/share/games/factorio/data/core/fonts/DejaVuSans.ttf also in ttf-dejavu-core
