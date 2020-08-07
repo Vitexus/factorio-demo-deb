@@ -1,5 +1,9 @@
 #!/usr/bin/make -f
 
+version=0.17.79
+archive="factorio_demo_x64_$(version).tar.xz"
+
+
 %:
 	dh $@
 
