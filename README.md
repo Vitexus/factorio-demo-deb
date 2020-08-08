@@ -3,8 +3,10 @@
 Factorio Demo
 =============
 
+Repacked archive from https://factorio.com/download ready to install on Debian & friends.
 
-
+Installation:
+------------
 
 ```shell
 sudo apt install lsb-release wget
