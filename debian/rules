@@ -30,4 +30,6 @@ override_dh_install:
 	rm  debian/factorio-demo/usr/share/games/factorio/data/core/fonts/NotoMono-Regular.ttf
 	touch debian/factorio-demo/usr/share/games/factorio/.lock
 	chmod 666 debian/factorio-demo/usr/share/games/factorio/.lock
+	touch debian/factorio-demo/usr/share/games/factorio/factorio-current.log
+	chmod 666 debian/factorio-demo/usr/share/games/factorio/factorio-current.log
 	dh_install
