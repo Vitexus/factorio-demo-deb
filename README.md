@@ -16,3 +16,4 @@ sudo apt update
 sudo apt install factorio-demo
 ```
 
+See also: https://github.com/factoriommo/factorio-multienv-ctl
