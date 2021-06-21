@@ -1,6 +1,6 @@
-version=1.1.32
-#https://www.factorio.com/get-download/1.1.32/demo/linux64
-archive="factorio_demo_x64_$(version).tar.xz"
+version = $(shell curl -s  "https://api.github.com/repos/wube/factorio-data/tags" | jq -r '.[0].name')
+archive = "factorio_demo_x64_$(version).tar.xz"
+
 repoversion=$(shell LANG=C aptitude show factorio-demo | grep Version: | awk '{print $$2}')
 nextversion=$(shell echo $(repoversion) | perl -ne 'chomp; print join(".", splice(@{[split/\./,$$_]}, 0, -1), map {++$$_} pop @{[split/\./,$$_]}), "\n";'
 
