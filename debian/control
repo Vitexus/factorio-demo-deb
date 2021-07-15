@@ -2,12 +2,12 @@ Source: factorio-demo
 Section: games
 Priority: optional
 Maintainer: "Vítězslav Dvořák" <info@vitexsoftware.cz>
-Build-Depends: debhelper (>=11~),wget,awk,libsm6
+Build-Depends: debhelper (>=11~),wget,awk,libsm6, libxinerama1, libxrandr2, libxinerama1, libxcursor1, libasound2, libpulse0, 
 Standards-Version: 4.1.4
 Homepage: https://factorio.com/
 
 Package: factorio-demo
-Depends: ${misc:Depends}, ${shlibs:Depends}, xserver-xorg, ttf-dejavu-core, fonts-lato, fonts-noto-mono, fonts-noto-hinted,
+Depends: ${misc:Depends}, ${shlibs:Depends}, xserver-xorg, ttf-dejavu-core, fonts-lato, fonts-noto-mono, fonts-noto-hinted, libsm6 ,libgl1 | nvidia-340 | primus-libs | virtualbox-guest-x11, libxinerama1, libxcursor1, libasound2, libpulse0
 Architecture: amd64
 Description: game in which you build and maintain factories.
  You will be mining resources, researching technologies, building 
@@ -16,6 +16,7 @@ Description: game in which you build and maintain factories.
  elements into ingenious structures, apply management skills 
  to keep it working, and protect it from the creatures who 
  don't really like you. 
+
 
 
 
