@@ -124,7 +124,7 @@ def buildPackage() {
     ).trim()
 
     def VERSION = sh (
-	script: 'upstream=`curl -s  https://api.github.com/repos/wube/factorio-data/tags | jq -r '.[0].name'`',
+	script: 'upstream=`curl -s  https://api.github.com/repos/wube/factorio-data/tags | jq -r \'.[0].name\'`',
         returnStdout: true
     ).trim()
 
