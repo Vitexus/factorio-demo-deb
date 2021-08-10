@@ -7,10 +7,12 @@ archive = "factorio_demo_x64_$(version).tar.xz"
 %:
 	dh $@
 
-#override_dh_prep:
-#	wget -c https://www.factorio.com/get-download/$(version)/demo/linux64 -O $(archive)
-#	dch -v $(version) "automated package build"
-#	dh_prep
+override_dh_prep:
+	wget -c https://www.factorio.com/get-download/$(version)/demo/linux64 -O $(archive)
+	ifeq ($(BUILD_ID)),)
+	dch -v $(version) "automated package build"
+	endif
+	dh_prep
 
 override_dh_auto_build:
 	dh_auto_build
