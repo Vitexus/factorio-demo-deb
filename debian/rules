@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-version = $(shell curl -s  "https://api.github.com/repos/wube/factorio-data/tags" | jq -r '.[0].name')
+version = $(shell debian/currver.sh)
 archive = "factorio_demo_x64_$(version).tar.xz"
 
 
