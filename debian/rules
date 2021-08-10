@@ -9,7 +9,7 @@ archive = "factorio_demo_x64_$(version).tar.xz"
 
 override_dh_prep:
 	wget -c https://www.factorio.com/get-download/$(version)/demo/linux64 -O $(archive)
-	ifeq ($(BUILD_ID)),)
+	ifeq ($(BUILD_ID),)
 	dch -v $(version) "automated package build"
 	endif
 	dh_prep
