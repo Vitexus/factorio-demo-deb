@@ -1,8 +1,7 @@
 #!/usr/bin/make -f
 
-version = $(shell debian/currver.sh)
+version = $(shell debian/getversion.sh)
 archive = "factorio_demo_x64_$(version).tar.xz"
-
 
 %:
 	dh $@

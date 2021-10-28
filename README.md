@@ -16,4 +16,19 @@ sudo apt update
 sudo apt install factorio-demo
 ```
 
-See also: https://github.com/factoriommo/factorio-multienv-ctl
+Building
+--------
+
+To build current version execute simply:
+
+```shell
+debuild -us -uc
+```
+You can also specify version requested:
+
+```shell 
+FORCE_FACTORIO_VERSION=1.1.42 debuild -us -uc
+``` 
+to repack https://www.factorio.com/get-download/1.1.42/demo/linux64 as deb archive.
+
+See also: https://github.com/factoriommo/factorio-multienv-ctl Full Game packager:  https://github.com/Vitexus/factorio-deb/
