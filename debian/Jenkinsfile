@@ -18,6 +18,7 @@ node() {
     ansiColor('xterm') {
         stage('SCM Checkout') {
             checkout scm
+	    sh 'dch -v`debian/getversion.sh` "release `debian/getversion.sh`"'
             def control = readFile( file:  env.WORKSPACE + "/debian/control")
             def lines = control.readLines() 
             for(line in lines) {
